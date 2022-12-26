@@ -1,0 +1,124 @@
+*{margin: 0; padding: 0; outline: 0;}
+
+body{
+	font-size: 16px;
+	line-height: 18px;
+	font-family: arial;
+}
+
+.wraper{
+	width: 900px;
+	margin: 0 auto;
+	background: #f2f2f2 none repeat scroll 0 0
+	
+}
+
+.header,.footer{
+	background: #565656 none repeat scroll 0 0;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.header h2{
+	font-size: 25px;
+	padding: 10px;
+}
+
+.mainmenu{
+	margin-top: 3px;
+	overflow: hidden;
+}
+
+.mainmenu ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.mainmenu ul li{
+	display: block;
+	float: left;
+}
+
+.mainmenu ul li a{
+	background: #818181 none repeat scroll 0 0; 
+	color: #fff;
+	display: inline-block;
+	font-weight: bold;
+	margin: 1px;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+.mainmenu ul li a:hover{
+	background: #666;
+}
+
+.content{
+	border-bottom: 2px solid #3c3c3c;
+	border-top: 2px solid #3c3c3c;
+	min-height: 300px;
+	overflow: hidden;
+	padding: 30px;
+}
+.content h2{
+	background: #ddd none repeat scroll 0 0; 
+	border: 1px solid #c9c9c9; 
+	color: #444;
+	margin-bottom: 20px;
+	margin-left: 235px;
+	padding: 10px;
+	text-align: center;
+	width: 350px;
+
+}
+
+.msg{
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+	width: 350px;
+}
+
+.login_reg{
+	width: 400px;
+	background: #e7e7e7 none repeat scroll 0 0;
+	border: 1px solid #d2d2d2;
+	border-radius: 5px;
+	margin: 0 auto;
+	font-size: 16px;
+	overflow: hidden;
+	padding: 20px;
+}
+
+input[type="text"],input[type="email"],input[type="password"] {
+
+	border: 1px solid #d5d5d5;
+	margin-bottom: 6px;
+	margin-left: 10px;
+	width: 285px;
+	padding: 5px;
+}
+
+input[type="submit"],input[type="reset"]{
+	background: #888 none repeat scroll 0 0;
+	border: 1px solid #626262;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 2px 5px;
+}
+
+input[type="submit"]:hover,input[type="reset"]:hover{
+	background: #333;
+}
+
+.back{text-align: center;}
+.back img{
+	width: 100px;
+	margin-top: 20px;
+
+}
